@@ -2,3 +2,99 @@ body {
     margin: 0;
     padding: 0;
 }
+
+
+
+
+
+
+
+(!-- عمر عبدالرحمن --)
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1b1b1b;
+    color: #fff;
+}
+
+footer {
+    background-color: #212529;
+    padding: 30px 15px;
+}
+
+.footer-title {
+    color: #f0a500;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.footer-contact {
+    margin-bottom: 30px;
+}
+
+.contact-box {
+    background-color: #343a40;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.contact-box {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    padding: 15px;
+    background-color: #343a40;
+    border-radius: 5px;
+    text-align: left; 
+}
+
+.contact-box {
+    margin: 10px;
+}
+
+.contact-box i {
+    margin-right: 10px; 
+    font-size: 1.5rem;
+    color: #f0a500;
+}
+
+.contact-box i {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.contact-box p {
+    margin: 10px 0 0;
+    color: #AB8116;
+}
+
+.footer-divider {
+    border: 2px solid #f0a500;
+    margin: 20px 0;
+}
+
+.mt-4 {
+  font-size: 25px;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #f0a500;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.back-to-top:hover {
+    background-color: #d48e00;
+}
