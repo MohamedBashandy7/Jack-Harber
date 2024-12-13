@@ -3,11 +3,13 @@
 
 
 footer {
+    color: #fff;
     background-color: #212529;
     padding: 30px 15px;
 }
 
 .footer-title {
+    
     color: #f0a500;
     font-size: 1.2rem;
     margin-bottom: 10px;
