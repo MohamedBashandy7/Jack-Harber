@@ -1,3 +1,13 @@
-.main-color {
-    color: #f0a500;
+.hover-effect {
+    border-bottom: 2px solid transparent; /* حد شفاف بشكل افتراضي */
+    transition: color 0.5s ease, border-color 0.5s ease; /* تأثير سلس للون وللحد */
+}
+
+.hover-effect:hover {
+    color: #f0a500 !important; /* لون عند تمرير الماوس */
+    border-bottom: 2px solid #f0a500 !important; /* تغيير لون الحد */
+}
+
+.p-50 {
+    padding-bottom: 50px;
 }

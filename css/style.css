@@ -2,3 +2,10 @@ body {
     margin: 0;
     padding: 0;
 }
+.main-color {
+    color: #f0a500;
+}
+
+.p-content {
+    padding: 15px 300px;
+}
