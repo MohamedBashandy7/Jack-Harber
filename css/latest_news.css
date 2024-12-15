@@ -1,10 +1,13 @@
-.LATEST_NEWS{
+.LATEST_NEWS {
     text-align: center;
     background-color: #424242;
     color: #fff;
 }
-#all{
-    background-color: #2f2e34;
+#all {
     text-align: start;
     margin: 10px;
+}
+.handle_ibrahim_div {
+    padding: 20px;
+    width: 400px;
 }
