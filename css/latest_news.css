@@ -1,0 +1,10 @@
+.LATEST_NEWS{
+    text-align: center;
+    background-color: #424242;
+    color: #fff;
+}
+#all{
+    background-color: #2f2e34;
+    text-align: start;
+    margin: 10px;
+}
