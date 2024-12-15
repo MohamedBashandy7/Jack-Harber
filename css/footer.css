@@ -6,52 +6,20 @@ footer {
     padding: 30px 15px;
 }
 
-.footer-title {
-    
-    color: #f0a500;
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-}
-
 .footer-contact {
-    margin-bottom: 30px;
+    padding: 15px 300px;
 }
 
 .contact-box {
-    background-color: #343a40;
-    padding: 15px;
-    border-radius: 5px;
-    text-align: center;
+    padding: 3px 0;
 }
-
-.contact-box {
-    display: flex;
-    align-items: center; 
-    justify-content: center; 
-    padding: 15px;
+.contact-box2 {
+    padding: 9px 0;
+}
+.footer-boxes {
+    font-size: 1rem;
     background-color: #343a40;
     border-radius: 5px;
-    text-align: left; 
-}
-
-.contact-box {
-    margin: 10px;
-}
-
-.contact-box i {
-    margin-right: 10px; 
-    font-size: 1.5rem;
-    color: #f0a500;
-}
-
-.contact-box i {
-    font-size: 1.5rem;
-    color: #fff;
-}
-
-.contact-box p {
-    margin: 10px 0 0;
-    color: #AB8116;
 }
 
 .footer-divider {
@@ -60,7 +28,7 @@ footer {
 }
 
 .mt-4 {
-  font-size: 25px;
+    font-size: 25px;
 }
 
 .back-to-top {
