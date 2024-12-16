@@ -6,8 +6,15 @@
 #all {
     text-align: start;
     margin: 10px;
+    position: relative;
 }
 .handle_ibrahim_div {
     padding: 20px;
     width: 350px;
+}
+.price{
+    position: absolute;
+    background-color: black;
+    color: #f0a500;
+    padding: 10px;
 }
