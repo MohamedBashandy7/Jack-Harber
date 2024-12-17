@@ -1,6 +1,6 @@
 .LATEST_NEWS {
     text-align: center;
-    background-color: #34353A;
+    background-color: #34353a;
     color: #fff;
 }
 #all {
@@ -12,7 +12,7 @@
     padding: 20px;
     width: 350px;
 }
-.price{
+.price {
     position: absolute;
     background-color: black;
     color: #f0a500;
