@@ -1,11 +1,169 @@
+/* main */
 body {
     margin: 0;
     padding: 0;
+    font-family: "Arial", sans-serif;
 }
 .main-color {
     color: #f0a500;
 }
-
 .p-content {
     padding: 15px 300px;
+}
+header {
+    position: fixed; /* يجعل الهيدر ثابتًا في أعلى الصفحة */
+    top: 0; /* يلصق الهيدر في أعلى الصفحة */
+    left: 0; /* يلصقه من اليسار */
+    width: 100%; /* يجعل عرض الهيدر بعرض الصفحة بالكامل */
+    z-index: 1000; /* يتأكد من ظهوره فوق باقي العناصر */
+}
+.pr-100 {
+    padding-right: 80px;
+}
+.pl-80 {
+    padding-left: 80px;
+}
+.px-70 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.p-50 {
+    padding-bottom: 50px;
+}
+/*  خالد*/
+.name {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.social-links {
+    padding: 15px 0;
+    color: #b0b0b0;
+}
+.text-section-2 {
+    padding: 60px;
+}
+.contact-btn {
+    border: 1px solid #ffb400;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contact-btn:hover {
+    background-color: #ffb400;
+    color: #1e1e1e;
+    transition: 0.3s;
+}
+
+.profile-image {
+    width: 400px;
+    height: 300px;
+    border-radius: 50%;
+    mix-blend-mode: multiply;
+}
+.introduction {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+.role-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white;
+}
+
+.description {
+    color: #b0b0b0;
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.learn-more {
+    font-size: 1rem;
+    color: #ffb400;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+/*  محمد بشندي */
+.hover-effect {
+    border-bottom: 2px solid transparent; /* حد شفاف بشكل افتراضي */
+    transition: color 0.5s ease, border-color 0.5s ease; /* تأثير سلس للون وللحد */
+}
+
+.hover-effect:hover {
+    color: #f0a500 !important; /* لون عند تمرير الماوس */
+    border-bottom: 2px solid #f0a500 !important; /* تغيير لون الحد */
+}
+
+/*  محمد ابراهيم*/
+.LATEST_NEWS {
+    text-align: center;
+    background-color: #34353a;
+    color: #fff;
+}
+#all {
+    text-align: start;
+    margin: 10px;
+    position: relative;
+}
+.handle_ibrahim_div {
+    padding: 20px;
+    width: 350px;
+}
+.price {
+    position: absolute;
+    background-color: black;
+    color: #f0a500;
+    padding: 10px;
+}
+/* عمر عبدالرحمن */
+
+footer {
+    color: #fff;
+    background-color: #212529;
+    padding: 30px 15px;
+}
+
+.contact-box {
+    padding: 3px 0;
+}
+.contact-box2 {
+    padding: 9px 0;
+}
+.footer-boxes {
+    font-size: 1rem;
+    background-color: #343a40;
+    border-radius: 5px;
+}
+
+.footer-divider {
+    border: 2px solid #f0a500;
+    margin: 20px 0;
+}
+
+.mt-4 {
+    font-size: 25px;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #f0a500;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.back-to-top:hover {
+    background-color: #d48e00;
 }
