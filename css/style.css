@@ -265,8 +265,24 @@ footer {
     .vip {
         display: none;
     }
-.small-gab {
-gab:10px}
+    .small-gab {
+        gap: 10px;
+    }
+    .card-handle {
+        width: auto !important;
+        padding: 5px 30px !important;
+        align-items: center !important;
+    }
+    .LATEST_NEWS {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .row1,
+    .row2 {
+        display: grid;
+        grid-template-columns: 2fr; /* عنصر واحد لكل صف */
+        gap: 1rem;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
@@ -354,6 +370,23 @@ gab:10px}
     .vip {
         display: none;
     }
-.small-gab {
-gab:10px}
+    .small-gab {
+        gap: 10px;
+    }
+    /*  مصطفي ياسر */
+    .card-handle {
+        width: auto !important;
+        padding: 5px 30px !important;
+        align-items: center !important;
+    }
+    .LATEST_NEWS {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .row1,
+    .row2 {
+        display: grid;
+        grid-template-columns: 1fr; /* عنصر واحد لكل صف */
+        gap: 1rem;
+    }
 }
