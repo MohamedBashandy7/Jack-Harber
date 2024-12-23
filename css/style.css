@@ -264,6 +264,11 @@ footer {
     .navbar-brand {
         display: none;
     }
+@media (max-width: 991px) {
+    .vip {
+        display: none;
+    }
+
 
 }
 
@@ -349,6 +354,10 @@ footer {
     }
 @media (max-width: 991px) {
     .navbar-brand {
+        display: none;
+    }
+@media (max-width: 991px) {
+    .vip {
         display: none;
     }
 
