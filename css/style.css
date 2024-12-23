@@ -172,8 +172,61 @@ footer {
 }
 
 /* Mobile Devices */
-@media (max-width: 600px) {
- .d-flex justify-content-center gap-4 mb- {
-    display: none;
-  }
+@media (max-width: 480px) {
+    .footer-media {
+        flex-direction: column; /* التغيير إلى عمودي */
+    }
+    .footer-p-link {
+        font-size: 15px;
+    }
+    .footer-p-content,
+    .p-content {
+        padding: 15px;
+        font-size: 15px;
+    }
+
+    .ul-media {
+        display: flex; /* ترتيب العناصر أفقيًا */
+        gap: 0px !important; /* إزالة التباعد بين العناصر إذا لزم الأمر */
+        padding-bottom: 20px;
+        overflow-x: auto; /* السماح بالتمرير الأفقي */
+        scroll-behavior: smooth; /* تمرير ناعم */
+        white-space: nowrap; /* منع انكسار العناصر */
+    }
+    .ul-media li {
+        padding: 5px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-media {
+        flex-direction: column; /* التغيير إلى عمودي */
+    }
+    .footer-p-link {
+        font-size: 15px;
+    }
+    .footer-p-content,
+    .p-content {
+        padding: 15px;
+        font-size: 15px;
+    }
+    /* .ul-media {
+        font-size: 14px;
+        gap: 0px !important;
+        padding-bottom: 20px;
+        display: flex;
+        overflow-x: auto; 
+        white-space: nowrap;
+        } */
+    .ul-media {
+        font-size: 14px;
+        gap: 0px !important; /* إزالة التباعد بين العناصر إذا لزم الأمر */
+        padding-bottom: 20px;
+        overflow-x: auto; /* السماح بالتمرير الأفقي */
+        scroll-behavior: smooth; /* تمرير ناعم */
+        white-space: nowrap; /* منع انكسار العناصر */
+    }
+    .ul-media li {
+        padding: 5px;
+    }
 }
