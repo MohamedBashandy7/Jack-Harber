@@ -30,6 +30,9 @@ header {
 .p-50 {
     padding-bottom: 50px;
 }
+.pt-50 {
+    padding-top: 50px;
+}
 /*  خالد*/
 .name {
     font-size: 3rem;
