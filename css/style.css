@@ -171,6 +171,7 @@ footer {
     background-color: #d48e00;
 }
 
+<<<<<<< HEAD
 /* Mobile Devices */
 @media (max-width: 480px) {
     .footer-media {
@@ -228,5 +229,34 @@ footer {
     }
     .ul-media li {
         padding: 5px;
+=======
+/* Mobile Device */
+@media (max-width: 480px) {
+    .footer-media {
+        flex-direction: column;
+    }
+    .footer-p-link {
+      font-size: 15px;
+    }
+    .footer-p-content {
+      padding: 15px;
+    }
+    .footer-p-text {
+      padding: 5px 0;
+    }
+}
+@media (max-width: 768px) {
+    .footer-media {
+        flex-direction: column;
+    }
+    .footer-p-link {
+      font-size: 15px;
+    }
+    .footer-p-content {
+      padding: 15px;
+    }
+    .footer-p-text {
+      padding: 5px 0;
+>>>>>>> c19859ba76a4e0a4a8b053e0468c0fead19371fb
     }
 }
