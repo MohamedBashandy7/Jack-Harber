@@ -170,3 +170,10 @@ footer {
 .back-to-top:hover {
     background-color: #d48e00;
 }
+
+/* Mobile Devices */
+@media (max-width: 600px) {
+ .d-flex justify-content-center gap-4 mb- {
+    display: none;
+  }
+}
