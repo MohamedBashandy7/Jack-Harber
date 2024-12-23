@@ -196,6 +196,9 @@ footer {
     .ul-media li {
         padding: 5px;
     }
+    .footer-p-text {
+        padding: 5px 0;
+    }
 }
 
 @media (max-width: 768px) {
@@ -228,5 +231,8 @@ footer {
     }
     .ul-media li {
         padding: 5px;
+    }
+    .footer-p-text {
+        padding: 5px 0;
     }
 }
