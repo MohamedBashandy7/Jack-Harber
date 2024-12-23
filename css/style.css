@@ -217,12 +217,24 @@ footer {
         .ib-card{
             flex-direction: column;
         }
-        .handle_img .handle_ibrahim_div{
-            width: 300px !important;
+        .handle_ibrahim_div{
+            width: 350px !important;
+        }
+        .handle_img {
+            width: 300px;
+        }
+        .ib-text {
+            padding: 20px 30px 0 0;
         }
         #all {
-            width: 350px;
+            width: 300px;
             margin: 10px auto;
+        }
+        .LATEST_NEWS>.container{
+            align-items: center;
+        }
+        .ib-img{
+            height: 200px;
         }
 
     /*  عمر عبدالرحمن*/
@@ -295,6 +307,9 @@ footer {
     #all {
         width: 450px;
         margin: 10px auto;
+    }
+    .LATEST_NEWS>.container{
+        align-items: center;
     }
 
 
