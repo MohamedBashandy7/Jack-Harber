@@ -253,6 +253,18 @@ footer {
     .footer-p-text {
         padding: 5px 0;
     }
+/*ساجد جابر*/
+@media (max-width: 991px) {
+    .justify-content-between .bi-twitch,
+    .justify-content-between .bi-facebook,
+    .justify-content-between .bi-twitter {
+        display: none;
+    }
+@media (max-width: 991px) {
+    .navbar-brand {
+        display: none;
+    }
+
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
@@ -328,6 +340,18 @@ footer {
 
     .footer-p-text {
         padding: 5px 0;
+/*ساجد جابر*/
+@media (max-width: 991px) {
+    .justify-content-between .bi-twitch,
+    .justify-content-between .bi-facebook,
+    .justify-content-between .bi-twitter {
+        display: none;
+    }
+@media (max-width: 991px) {
+    .navbar-brand {
+        display: none;
+    }
+
   
 
 }
