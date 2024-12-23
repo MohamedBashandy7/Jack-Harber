@@ -224,7 +224,12 @@ footer {
             width: 300px;
         }
         .ib-text {
-            padding: 20px 30px 0 0;
+            font-size: large;
+            padding-right: 23px;
+        }
+        .ib-p{
+            font-size: small;
+            padding-right: 30px;
         }
         #all {
             width: 300px;
