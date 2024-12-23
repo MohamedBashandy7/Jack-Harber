@@ -328,12 +328,6 @@ footer {
 
     .footer-p-text {
         padding: 5px 0;
-    }
-@media (max-width: 991px) {
-    .justify-content-between .bi-twitch,
-    .justify-content-between .bi-facebook,
-    .justify-content-between .bi-twitter {
-        display: none;
-    }
+  
 
 }
