@@ -171,9 +171,32 @@ footer {
     background-color: #d48e00;
 }
 
-/* Mobile Devices */
-@media (max-width: 600px) {
- .d-flex justify-content-center gap-4 mb- {
-    display: none;
-  }
+/* Mobile Device */
+@media (max-width: 480px) {
+    .footer-media {
+        flex-direction: column;
+    }
+    .footer-p-link {
+      font-size: 15px;
+    }
+    .footer-p-content {
+      padding: 15px;
+    }
+    .footer-p-text {
+      padding: 5px 0;
+    }
+}
+@media (max-width: 768px) {
+    .footer-media {
+        flex-direction: column;
+    }
+    .footer-p-link {
+      font-size: 15px;
+    }
+    .footer-p-content {
+      padding: 15px;
+    }
+    .footer-p-text {
+      padding: 5px 0;
+    }
 }
