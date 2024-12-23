@@ -173,20 +173,26 @@ footer {
 
 /* Mobile Devices */
 @media (max-width: 480px) {
-    .footer-media {
-        flex-direction: column; /* التغيير إلى عمودي */
+    /*  محمد بشندي */
+    .mo-content {
+        flex-direction: column;
     }
-    .footer-p-link {
-        font-size: 15px;
+    .mo-content div img {
+        width: 150px;
+        height: 150px;
     }
-    .footer-p-content,
-    .p-content {
-        padding: 15px;
-        font-size: 15px;
+    .mo-content div {
+        flex-direction: row !important;
     }
-
+    .mo-content img {
+        width: 330px;
+        height: 330px;
+    }
+    .mo-content {
+        align-items: center;
+    }
     .ul-media {
-        display: flex; /* ترتيب العناصر أفقيًا */
+        font-size: 14px;
         gap: 0px !important; /* إزالة التباعد بين العناصر إذا لزم الأمر */
         padding-bottom: 20px;
         overflow-x: auto; /* السماح بالتمرير الأفقي */
@@ -196,22 +202,8 @@ footer {
     .ul-media li {
         padding: 5px;
     }
-    .footer-p-text {
-        padding: 5px 0;
-    }
-}
-
-@media (max-width: 768px) {
-    .footer-media {
-        flex-direction: column; /* التغيير إلى عمودي */
-    }
-    .footer-p-link {
-        font-size: 15px;
-    }
-    .footer-p-content,
-    .p-content {
-        padding: 15px;
-        font-size: 15px;
+    .pt-50 {
+        padding-top: 20px !important;
     }
     /* .ul-media {
         font-size: 14px;
@@ -221,6 +213,43 @@ footer {
         overflow-x: auto; 
         white-space: nowrap;
         } */
+    /*  عمر عبدالرحمن*/
+    .footer-media {
+        flex-direction: column; /* التغيير إلى عمودي */
+    }
+    .footer-p-link {
+        font-size: 15px;
+    }
+    .footer-p-content,
+    .p-content {
+        padding: 15px;
+        font-size: 15px;
+    }
+
+    .footer-p-text {
+        padding: 5px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    /*  محمد بشندي */
+    .mo-content {
+        flex-direction: column;
+    }
+    .mo-content div img {
+        width: 150px;
+        height: 150px;
+    }
+    .mo-content div {
+        flex-direction: row !important;
+    }
+    .mo-content img {
+        width: 330px;
+        height: 330px;
+    }
+    .mo-content {
+        align-items: center;
+    }
     .ul-media {
         font-size: 14px;
         gap: 0px !important; /* إزالة التباعد بين العناصر إذا لزم الأمر */
@@ -232,6 +261,30 @@ footer {
     .ul-media li {
         padding: 5px;
     }
+    .pt-50 {
+        padding-top: 20px !important;
+    }
+    /* .ul-media {
+        font-size: 14px;
+        gap: 0px !important;
+        padding-bottom: 20px;
+        display: flex;
+        overflow-x: auto; 
+        white-space: nowrap;
+        } */
+    /*  عمر عبدالرحمن*/
+    .footer-media {
+        flex-direction: column; /* التغيير إلى عمودي */
+    }
+    .footer-p-link {
+        font-size: 15px;
+    }
+    .footer-p-content,
+    .p-content {
+        padding: 15px;
+        font-size: 15px;
+    }
+
     .footer-p-text {
         padding: 5px 0;
     }
