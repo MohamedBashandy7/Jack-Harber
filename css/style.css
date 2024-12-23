@@ -213,6 +213,18 @@ footer {
         overflow-x: auto; 
         white-space: nowrap;
         } */
+        /* محمد ابراهيم */
+        .ib-card{
+            flex-direction: column;
+        }
+        .handle_img .handle_ibrahim_div{
+            width: 300px !important;
+        }
+        #all {
+            width: 350px;
+            margin: 10px auto;
+        }
+
     /*  عمر عبدالرحمن*/
     .footer-media {
         flex-direction: column; /* التغيير إلى عمودي */
@@ -231,7 +243,7 @@ footer {
     }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 768px) {
     /*  محمد بشندي */
     .mo-content {
         flex-direction: column;
@@ -272,6 +284,20 @@ footer {
         overflow-x: auto; 
         white-space: nowrap;
         } */
+    
+    /* محمد ابراهيم */
+    .ib-card{
+        flex-direction: column;
+    }
+    .handle_img {
+        width: 450px !important;
+    }
+    #all {
+        width: 450px;
+        margin: 10px auto;
+    }
+
+
     /*  عمر عبدالرحمن*/
     .footer-media {
         flex-direction: column; /* التغيير إلى عمودي */
