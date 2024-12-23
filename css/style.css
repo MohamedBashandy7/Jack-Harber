@@ -224,7 +224,12 @@ footer {
         width: 300px;
     }
     .ib-text {
-        padding: 20px 30px 0 0;
+        font-size: large;
+        padding-right: 23px;
+    }
+    .ib-p {
+        font-size: small;
+        padding-right: 30px;
     }
     #all {
         width: 300px;
@@ -282,6 +287,9 @@ footer {
         display: grid;
         grid-template-columns: 2fr; /* عنصر واحد لكل صف */
         gap: 1rem;
+    }
+    .small-gab {
+        gap: 5px;
     }
 }
 
@@ -388,5 +396,8 @@ footer {
         display: grid;
         grid-template-columns: 1fr; /* عنصر واحد لكل صف */
         gap: 1rem;
+    }
+    .small-gab {
+        gap: 5px;
     }
 }
