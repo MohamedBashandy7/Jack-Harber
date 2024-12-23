@@ -265,6 +265,8 @@ footer {
     .vip {
         display: none;
     }
+.small-gab {
+gab:10px}
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
@@ -352,4 +354,6 @@ footer {
     .vip {
         display: none;
     }
+.small-gab {
+gab:10px}
 }
