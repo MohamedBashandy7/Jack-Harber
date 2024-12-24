@@ -279,9 +279,6 @@ footer {
         padding: 5px 30px !important;
         align-items: center !important;
     }
-    header .container {
-        width: auto;
-    }
     .LATEST_NEWS {
         padding-bottom: 10px;
         padding-top: 10px;
@@ -319,6 +316,9 @@ footer {
     }
     .description {
         text-align: center !important;
+    }
+    .container {
+        width: auto !important;
     }
 }
 
@@ -402,9 +402,6 @@ footer {
     .small-gab {
         gap: 15px !important;
     }
-    header .container {
-        width: auto;
-    }
     /*  مصطفي ياسر */
     .card-handle {
         width: auto !important;
@@ -448,5 +445,8 @@ footer {
     }
     .description {
         text-align: center !important;
+    }
+    .container {
+        width: auto !important;
     }
 }
