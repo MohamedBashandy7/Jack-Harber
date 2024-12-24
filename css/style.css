@@ -262,9 +262,6 @@ footer {
     .hidden {
         display: none;
     }
-    .navbar-brand {
-        display: none;
-    }
     .small-gab {
         gap: 10px !important;
     }
@@ -272,6 +269,9 @@ footer {
         width: auto !important;
         padding: 5px 30px !important;
         align-items: center !important;
+    }
+    header .container {
+        width: auto;
     }
     .LATEST_NEWS {
         padding-bottom: 10px;
@@ -282,6 +282,13 @@ footer {
         display: grid;
         grid-template-columns: 2fr; /* عنصر واحد لكل صف */
         gap: 1rem;
+    }
+    .name {
+        font-size: 20px !important;
+    }
+    .p-10-media {
+        padding-bottom: 10px;
+        padding-top: 10px;
     }
 }
 
@@ -362,11 +369,11 @@ footer {
     .hidden {
         display: none;
     }
-    .navbar-brand {
-        display: none;
-    }
     .small-gab {
         gap: 10px !important;
+    }
+    header .container {
+        width: auto;
     }
     /*  مصطفي ياسر */
     .card-handle {
@@ -383,5 +390,12 @@ footer {
         display: grid;
         grid-template-columns: 1fr; /* عنصر واحد لكل صف */
         gap: 1rem;
+    }
+    .name {
+        font-size: 20px !important;
+    }
+    .p-10-media {
+        padding-bottom: 10px;
+        padding-top: 10px;
     }
 }
