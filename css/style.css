@@ -259,9 +259,7 @@ footer {
         padding: 5px 0;
     }
     /*ساجد جابر*/
-    .justify-content-between .bi-twitch,
-    .justify-content-between .bi-facebook,
-    .justify-content-between .bi-twitter {
+    .hidden {
         display: none;
     }
     .navbar-brand {
@@ -367,9 +365,7 @@ footer {
         padding: 5px 0;
     }
     /* ساجد جابر*/
-    .justify-content-between .bi-twitch,
-    .justify-content-between .bi-facebook,
-    .justify-content-between .bi-twitter {
+    .hidden {
         display: none;
     }
     .navbar-brand {
