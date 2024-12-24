@@ -265,11 +265,8 @@ footer {
     .navbar-brand {
         display: none;
     }
-    .vip {
-        display: none;
-    }
     .small-gab {
-        gap: 10px;
+        gap: 10px !important;
     }
     .card-handle {
         width: auto !important;
@@ -285,9 +282,6 @@ footer {
         display: grid;
         grid-template-columns: 2fr; /* عنصر واحد لكل صف */
         gap: 1rem;
-    }
-    .small-gab {
-        gap: 5px;
     }
 }
 
@@ -371,11 +365,8 @@ footer {
     .navbar-brand {
         display: none;
     }
-    .vip {
-        display: none;
-    }
     .small-gab {
-        gap: 10px;
+        gap: 10px !important;
     }
     /*  مصطفي ياسر */
     .card-handle {
@@ -392,8 +383,5 @@ footer {
         display: grid;
         grid-template-columns: 1fr; /* عنصر واحد لكل صف */
         gap: 1rem;
-    }
-    .small-gab {
-        gap: 5px;
     }
 }
