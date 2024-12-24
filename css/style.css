@@ -41,8 +41,12 @@ header {
 }
 
 .social-links {
-    padding: 15px 0;
+    padding: 0;
+    margin: 0;
     color: #b0b0b0;
+}
+.links-container {
+    padding: 15px 0;
 }
 .text-section-2 {
     padding: 60px;
@@ -263,7 +267,7 @@ footer {
         display: none;
     }
     .small-gab {
-        gap: 10px !important;
+        gap: 15px !important;
     }
     .card-handle {
         width: auto !important;
@@ -289,6 +293,19 @@ footer {
     .p-10-media {
         padding-bottom: 10px;
         padding-top: 10px;
+    }
+    .main-media {
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+    .small-main-media,
+    .links-container {
+        display: flex;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        padding: 10px;
     }
 }
 
@@ -370,7 +387,7 @@ footer {
         display: none;
     }
     .small-gab {
-        gap: 10px !important;
+        gap: 15px !important;
     }
     header .container {
         width: auto;
@@ -397,5 +414,18 @@ footer {
     .p-10-media {
         padding-bottom: 10px;
         padding-top: 10px;
+    }
+    .main-media {
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+    .small-main-media,
+    .links-container {
+        display: flex;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        padding: 10px;
     }
 }
