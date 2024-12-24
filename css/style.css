@@ -229,7 +229,7 @@ footer {
         flex-direction: column;
     }
     .handle_ibrahim_div {
-        width: 350px !important;
+        width: auto !important;
     }
     .handle_img {
         width: 300px;
